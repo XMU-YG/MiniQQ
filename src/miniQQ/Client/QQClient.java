@@ -31,7 +31,7 @@ public class QQClient extends JFrame {
     private Socket socket;
     private boolean isConnect;
     private Thread receive;//消息监听线程
-    private int name;
+    private int name;  //客户端名字，目前以端口做名字
 
 
     public QQClient(String hostAddress,int port){
