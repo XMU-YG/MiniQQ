@@ -1,4 +1,4 @@
-package miniQQ.Server;
+package miniQQ_socket.Server;
 
 /**
  * QQ服务端启动入口
@@ -6,7 +6,7 @@ package miniQQ.Server;
 public class QQChat {
 
     public static void main(String[] args) {
-        QQServer qqServer=new QQServer("127.0.0.1",10000);
+        QQServer qqServer=new QQServer("127.0.0.1",8849);
         qqServer.start();
     }
 

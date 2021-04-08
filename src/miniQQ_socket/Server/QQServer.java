@@ -1,4 +1,4 @@
-package miniQQ.Server;
+package miniQQ_socket.Server;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
